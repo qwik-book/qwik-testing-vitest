@@ -1,3 +1,4 @@
+/* v8 ignore start */
 /*
  * WHAT IS THIS FILE?
  *
@@ -16,3 +17,4 @@ addEventListener("install", () => self.skipWaiting());
 addEventListener("activate", () => self.clients.claim());
 
 declare const self: ServiceWorkerGlobalScope;
+/* v8 ignore stop */

@@ -1,3 +1,4 @@
+/* v8 ignore start */
 /*
  * WHAT IS THIS FILE?
  *

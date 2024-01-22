@@ -1,3 +1,4 @@
+/* v8 ignore start */
 /**
  * WHAT IS THIS FILE?
  *
@@ -28,3 +29,4 @@ export default function (opts: RenderToStreamOptions) {
     },
   });
 }
+/* v8 ignore stop */

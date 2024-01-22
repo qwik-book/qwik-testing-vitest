@@ -1,3 +1,4 @@
+/* v8 ignore start */
 /*
  * WHAT IS THIS FILE?
  *
@@ -9,9 +10,12 @@
  * - More code is transferred to the browser than in SSR mode.
  * - Optimizer/Serialization/Deserialization code is not exercised!
  */
+
+
 import { render, type RenderOptions } from "@builder.io/qwik";
 import Root from "./root";
 
 export default function (opts: RenderOptions) {
   return render(document, <Root />, opts);
 }
+/* v8 ignore stop */

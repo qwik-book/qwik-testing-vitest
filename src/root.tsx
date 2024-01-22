@@ -1,3 +1,4 @@
+/* v8 ignore start */
 import { component$ } from "@builder.io/qwik";
 import {
   QwikCityProvider,
@@ -30,3 +31,4 @@ export default component$(() => {
     </QwikCityProvider>
   );
 });
+/* v8 ignore stop */
