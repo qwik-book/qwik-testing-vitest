@@ -1,7 +1,7 @@
 import { createDOM } from "@builder.io/qwik/testing";
 // 0.- Obtenemos "vi" para hacer el mockeo del valor del contador
 import { beforeAll, describe, expect, it, vi } from "vitest";
-import { CounterWithHook } from ".";
+import { Counter } from ".";
 
 // 1.- Añadimos bloque beforeAll
 beforeAll(() => {
@@ -28,7 +28,7 @@ describe("Componente Counter - Usando mocks", function() {
       const { screen, render, userEvent } = await createDOM();
   
       // 7.- representamos el componente
-      await render(<CounterWithHook />);
+      await render(<Counter />);
   
       // 8. - obtenemos el div que muestra el contador de nuestro contenedor
       const countElement = screen.querySelector(".count");

@@ -1,0 +1,34 @@
+#alert-warning {
+    background: #f5f5b0;
+    border: 2.5px solid #b0b083;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 1rem;
+    color: #68683e;
+  }
+  
+  #alert-warning:hover {
+    cursor: pointer;
+  }
+  
+  .center {
+    margin: 1rem auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  button {
+    padding: 1rem;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background: yellow;
+    cursor: pointer;
+  }
+  
+  .select {
+    background: orange;
+  }
